@@ -1,0 +1,30 @@
+<div id="file-uploader"> 
+
+<noscript>
+
+  <p>Please enable JavaScript to use file uploader.</p>
+
+  <!-- or put a simple form for upload here -->
+
+</noscript>
+
+</div>
+
+
+<link rel="stylesheet" href="/stylesheets/fileuploader.css" type="text/css" media="screen" charset="utf-8">
+<script type='text/javascript' src='/javascripts/fileuploader.js'></script>
+<script type='text/javascript'>
+  function createUploader(){
+    var uploader = new qq.FileUploader({
+      element: document.getElementById('file-uploader'),
+      action: '/uploads',
+      multiple: true,
+      allowedExtensions: ['jpg', 'jpeg', 'png', 'gif']
+    });
+  }
+  
+  createUploader();
+  
+    
+</script>
+
