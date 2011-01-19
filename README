@@ -1,1 +1,3 @@
-Currently not working yet. Stay tuned for updates
+A sample Rails 3 app which uses https://github.com/valums/file-uploader
+
+Currently working, but the progress readout completes long before the actual upload is finished
