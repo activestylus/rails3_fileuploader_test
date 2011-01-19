@@ -1,3 +1,9 @@
 A sample Rails 3 app which uses https://github.com/valums/file-uploader
 
 Currently working, but the progress readout completes long before the actual upload is finished
+
+INSTALLATION
+
+rake db:migrate
+bundle install
+rails server
